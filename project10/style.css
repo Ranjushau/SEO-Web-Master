@@ -1,0 +1,656 @@
+.menubar{
+    width: 30%;
+    background-color: rgb(0, 29, 63);
+    height: auto;
+}
+.navigation-topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
+.logo{
+    margin: 20px 30px;
+}
+.logo a{ 
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo a .i{ 
+    font-weight: 1000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aqua;
+    padding: 0px 9px 0px 0px;
+}
+
+.logo a .o{ 
+    font-weight: 1000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(9, 255, 0);
+    
+}
+.cross{
+    margin: 20px 30px;
+}
+.cross a img:hover{
+background-color: rgb(145, 255, 117);
+}
+.nav-item{
+    margin: 10px 30px;
+}
+.nav-menu-item{
+    margin: 10px 0px 10px 0px;
+}
+.nav-menu-item p{
+    margin: 10px 0px 7px 0px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: gray;
+}
+.nav-menu-item ul li {
+list-style: none;
+}
+.nav-menu-item ul li a{
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+font-style: italic;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 10px 0px;
+cursor: pointer;
+font-size: 15px;
+}
+.nav-menu-item ul li .active{
+    color: rgb(255, 103, 2);
+}
+.nav-menu-item ul li a:hover{
+color: rgb(255, 103, 2);
+}
+.search-box{
+    margin: 70px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box .input{
+    width: 90%;
+    height: 30px;
+    margin-top: 30px;
+border-radius: 10px;
+}
+.search-box a {
+    margin-top: 33px;
+width: 40px;
+height: 40px;
+}
+.search-box a img{
+width: 30px;
+height: 30px;
+}
+.search-box a img:hover{
+    background-color: rgb(145, 255, 117);
+    }
+.copy{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.copy p{
+    color: gray;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.copy a{
+    color: rgb(4, 8, 245);
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+.logo-menu{
+    background-image: url('img/29.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logomenu{
+    margin: 0px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.logomenu a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.logomenu a img{
+    width: 30px;
+}
+.logomenu a .i{ 
+color: aqua;
+font-weight: 1000;
+padding: 0px 3px 0px 0px;
+}
+
+.logomenu a .o{ 
+    font-weight: 1000;
+color: rgb(9, 255, 0);
+}
+.section-one{
+    background-image: url('img/29.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.scetionone-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+}
+.contentarea{
+    width: 50%;
+    margin: 0px auto;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.contentarea h1{
+    font-size: 34px;
+    color: rgb(0, 151, 88);
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contentarea p{
+    font-size: 20px;
+    color: rgb(0, 6, 32);
+    font-style: italic;
+    margin: 10px;
+}
+.contentarea .button{
+    margin: 20px;
+}
+.contentarea .button a{
+    margin: 0px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contentarea .button a:hover{
+    background-color: rgb(11, 116, 116);
+    color: rgb(0, 0, 29);
+}
+
+
+/* section two  ekhan theke start */ /* section two   ekhan theke start *//* section two  ekhan theke start */
+
+.section-two{
+    margin-top: -7px;
+    background-color: white;
+}
+.section2-three-column{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.stc-box1{
+    margin-top: 60px;
+    width: 30%;
+     /* border: 1px solid red; */
+     /* -webkit-box-shadow: 13px 22px 24px -9px rgba(107,105,107,1);
+     -moz-box-shadow: 13px 22px 24px -9px rgba(107,105,107,1);
+     box-shadow: 13px 22px 24px -9px rgba(107,105,107,1); */
+    /* border: 1px solid red; */
+}
+.stc-box1 h5{
+margin: 10px;
+text-transform: capitalize;
+}
+.stc-box1 p{
+    margin: 10px auto;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+.stc-box2{
+    margin-top: 60px;
+    width: 30%;
+    /* border: 1px solid red; */
+    -webkit-box-shadow: 13px 22px 24px -9px rgba(107,105,107,1);
+-moz-box-shadow: 13px 22px 24px -9px rgba(107,105,107,1);
+box-shadow: 13px 22px 24px -9px rgba(107,105,107,1);
+
+}
+.stc-box2 h5{
+    margin: 10px;
+    text-transform: capitalize;
+    }
+.stc-box2 p{
+    margin: 10px auto;
+    width: 90%;
+}
+.heading-title{
+    margin: 80px auto;
+    text-align: center;
+}
+.heading-title h1{
+   font-size: 100px;
+   color: rgb(214, 213, 212);
+}
+.heading-title p{
+    margin-top: -85px;
+    font-weight: bold;
+   font-size: 20px;
+   color: rgb(0, 6, 41);
+   text-transform: capitalize;
+}
+
+/* section two services ekhan theke start */ /* section two service  ekhan theke start *//* section two serices ekhan theke start */
+
+.services-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+}
+.services-txtprt{
+    display: flex;
+    width: 63%;
+}
+.serviceprt{
+    display: flex;
+    margin: 40px 4px;
+}
+.serviceprt .svstxt{
+margin: 0px 8px;
+}
+.serviceprt .svstxt h5{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: 800;
+    color: rgb(0, 0, 27);
+    
+}
+.serviceprt .svstxt p{
+    text-transform: capitalize;
+    font-style: italic;
+    color: rgb(105, 105, 105);
+    margin-top: 20px;
+    
+}
+.services-imgprt{
+    width: 30%;
+    display: flex;
+    position: relative;
+}
+.whitebox{
+    width: 270px;
+    height: 240px;
+    top: -100px;
+    left: 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 4;
+}
+.whitebox img{
+    width: 100%;
+    height: 100%;
+}
+.blackbox{
+    top: -160px;
+    right: 10px;
+    position: absolute;
+    width: 80px;
+    height: 360px;
+    background-color: rgb(3, 0, 41);
+}
+
+
+/* section three portfolio ekhan theke start */ /* section three portfolio  ekhan theke start *//* section three portfolio ekhan theke start */
+
+.sectionthree-columnarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+}
+.stcabox{
+    width: 32%;
+    border: 2px solid rgb(243, 230, 255);
+    background-color: white;
+}
+.stcabox .stcaboximg{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+    /* border: 2px solid blueviolet; */
+}
+.stcabox .stcaboximg img{
+    width: 100%;
+    height: 250px;
+   
+}
+.stcabox .stcaboxtxt {
+    width: 97%;
+    height: auto;
+    margin: 16px;
+   
+}
+.stcabox .stcaboxtxt  h5{
+   text-transform: uppercase;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-decoration: none;
+   color: rgb(9, 9, 199);
+}
+.stcabox .stcaboxtxt  p{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-style: italic;
+   color: rgb(0, 0, 29);
+}
+.stcabox .stcaboxtxt  .button a{
+ text-decoration: none;   
+ color: darkgoldenrod;
+ border: 1px solid;
+ padding: 7px 10px;
+ border-radius: 7px;
+}
+.stcabox .stcaboxtxt  .button a:hover{
+background-color:darkgoldenrod;
+ color: rgb(255, 255, 255);
+}
+
+
+
+/* section four ekhan theke start *//* section four ekhan theke start *//* section four ekhan theke start */
+/* section four ekhan theke start *//* section four ekhan theke start *//* section four ekhan theke start */
+.sectionforcontentarea{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.sfcontentimg{
+    width: 47%;
+    margin-top: 29px;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.boxstrat1{
+    width: 70px;
+    height: 450px;
+    background-color: rgb(221, 125, 0);
+    position: absolute;
+    top: -100px;
+    left: 20px;
+}
+.boxsimg{
+    width: 350px;
+    height: 330px;
+    top: -20px;
+    left: 70px;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);   
+    position: absolute;
+}
+.boxsimg img{
+    width: 100%;
+    height: 100%;
+}
+.boxl{
+    width: 150px;
+    height: 50px;
+    left: 400px;
+    top: 150px;
+    background-color: rgb(1, 116, 91);
+    position: absolute;
+}
+.boxstrat2{
+    width: 80px;
+    height: 250px;
+    background-color: rgb(1, 116, 91);
+    position: absolute;
+    left: 385px;
+    top: -50px;
+}
+.sfcontenttxt{
+    width: 47%;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+.sfcontenttxt .bold{
+    font-weight: bold;
+    color: rgb(0, 0, 43);
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+.line{
+    width: 260px;
+    height: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(2, 196, 196);
+}
+.sfcontenttxt p{
+    font-weight: 400;
+    color: rgb(0, 0, 43);
+    margin-top: 20px;
+    margin-bottom: 27px;
+    font-style: italic;
+}
+.sfcontenttxtpart .button a{
+text-decoration: none;
+border: 1px solid ;
+padding: 10px 16px;
+color: rgb(0, 131, 131);
+}
+.sfcontenttxtpart .button a:hover{
+    background-color:darkgoldenrod;
+    color: rgb(255, 255, 255);
+}
+
+
+/* section five ekhan theke start */
+.section-five{
+    background-image: url('img/07.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.secfive-contnt{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    height: 447px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacttxt h3{
+font-size: 38px;
+text-transform: capitalize;
+color: rgb(255, 146, 4);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contacttxt h4{
+    margin: 20px 0px;
+font-size: 28px;
+text-transform: lowercase;
+color: rgb(0, 17, 53);
+
+}
+.contacttxt p{
+    margin: 20px 0px;
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+text-transform: capitalize;
+color: rgb(0, 3, 8);
+}
+.socialicon a img{
+    margin: 10px 10px;
+    width: 30px;
+}
+.contactinput{
+    display: flex;
+    flex-direction: column;
+    margin-right: 108px;
+}
+.contactinput input{
+    margin: 7px;
+    width: 120%;
+    height: 39px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.contactinput textarea{
+    margin: 7px;
+    width: 120%;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+button{
+    width: 120%;
+    height: 30px;
+    margin-left: 20px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+button:hover{
+    background-color: rgb(4, 0, 51);
+    color: white;
+}
+
+
+
+
+/* ekhan theka copyright area start */
+
+.footerarea {
+    height: 50px;
+    background-color: rgb(8, 0, 15);
+}
+.footerarea .copy{
+    width: 80%;
+    margin: 5px auto;
+}
+.footerarea .copy p{
+  margin-top: 10px;
+  color: white;
+}
+
+/* services page er style ekhan theke start */
+
+.sectiontwoarea{
+    background-color: white;
+}
+.sectiontwo-content1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.stcbox1{
+    width: 67%;
+    /* border: 2px solid red; */
+    margin: 20px 10px;
+}
+.stcbox2{
+    width: 27%;
+    /* border: 2px solid red; */
+    margin: 50px 10px;
+    -webkit-box-shadow: 13px 22px 24px -9px rgba(107,105,107,1);
+-moz-box-shadow: 13px 22px 24px -9px rgba(107,105,107,1);
+box-shadow: 13px 22px 24px -9px rgba(107,105,107,1);
+
+}
+.stcbox1 .bold{
+    margin-top: -9px;
+    font-weight: bold;
+    color: rgb(0, 0, 34);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stcbox1 p{
+    margin-top: 40px;
+    color: rgb(89, 89, 90);
+    font-style: italic;
+}
+.line{
+    width: 250px;
+    height: 5px;
+    background-color: aqua;
+    margin: 30px 0px;
+}
+
+.stboprt{
+    width: 50%;
+    background-color: white;
+    margin-left: 100px;
+}
+.stboprt h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px 30px 0px 30px;
+}
+.stboprt p{
+    text-transform: capitalize;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -8px 30px 60px 30px;
+}
+.imgposition{
+    width: 90%;
+    margin: auto;
+}
+.imgposition img{
+    width: 100%;
+    height: 500px;
+}
+.twocolumn{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.twoclmtxtprt{
+    width: 50%;
+}
+.twoclmtxtprt{
+    width: 30%;
+}
+.twoclmtxtprt img{
+    width: 110%;
+    height: 100%;
+}
